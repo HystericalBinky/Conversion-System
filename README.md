@@ -12,8 +12,8 @@ Conversion System is an easy-to-use, [open-source](https://en.wikipedia.org/wiki
 3. Open the setup.exe and follow the instructions
 4. Type in your Windows Search Bar: "Conversion System" and open the Application
 
-### 📝Source Code/Visual Studio Code
-1. Open Visual Studio Code
+### 📝Source Code/Visual Studio
+1. Open Visual Studio
 2. Select "Clone Repository"
 3. Paste the following link in the Repository location: https://github.com/HystericalBinky/Conversion-System
 4. Select the path you want to clone it to.
