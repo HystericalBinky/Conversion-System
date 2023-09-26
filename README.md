@@ -12,7 +12,7 @@ I have ran both the setup.exe and the application itself through VirusTotal to e
 ### 🖥️Windows Application
 1. Download the Conversion-System-[Version]-Setup.zip from the [latest release](https://github.com/HystericalBinky/Conversion-System/releases)
 2. Unzip the zip file
-3. Open the Conversion System.application and follow the instructions
+3. Open the setup.exe file and follow the instructions
 4. Type in your Windows Search Bar: "Conversion System" and open the Application
 
 ### 📝Source Code/Visual Studio
