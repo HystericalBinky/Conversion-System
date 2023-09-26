@@ -1,0 +1,5 @@
+C:\Users\hyste.STUDIELP-STEFAN\source\repos\Conversion System\Conversion System\bin\Release\net6.0-windows\app.publish\Conversion System.exe
+C:\Users\hyste.STUDIELP-STEFAN\source\repos\Conversion System\Conversion System\bin\Release\net6.0-windows\app.publish\Conversion System.dll
+C:\Users\hyste.STUDIELP-STEFAN\source\repos\Conversion System\Conversion System\bin\Release\net6.0-windows\app.publish\Conversion System.deps.json
+C:\Users\hyste.STUDIELP-STEFAN\source\repos\Conversion System\Conversion System\bin\Release\net6.0-windows\app.publish\Conversion System.runtimeconfig.json
+C:\Users\hyste.STUDIELP-STEFAN\source\repos\Conversion System\Conversion System\bin\Release\net6.0-windows\app.publish\Conversion System.pdb

@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             bindingSource1 = new BindingSource(components);
             lblBinary = new TextBox();
             txtConverter = new TextBox();
@@ -191,6 +192,7 @@
             Controls.Add(hex_btn);
             Controls.Add(txtConverter);
             Controls.Add(lblBinary);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form1";
             Text = "Conversion System";
             Load += Form1_Load;
