@@ -6,7 +6,7 @@ Conversion System is an easy-to-use Windows Application allowing you to easily c
 
 ## Setup
 
-1. Download the code ZIP File and Unzip it.
+1. Download latest release's zip file and unzip it.
 2. Open the folder with Visual Studio.
 3. Run the project.
 
