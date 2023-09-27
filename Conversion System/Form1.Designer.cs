@@ -231,6 +231,7 @@
             Controls.Add(hex_btn);
             Controls.Add(txtConverter);
             Controls.Add(lblBinary);
+            FormBorderStyle = FormBorderStyle.FixedDialog;
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form1";
             Text = "Conversion System";

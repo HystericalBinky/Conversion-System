@@ -14,6 +14,7 @@ C:\Users\hyste.STUDIELP-STEFAN\source\repos\Conversion System\Conversion System\
 C:\Users\hyste.STUDIELP-STEFAN\source\repos\Conversion System\Conversion System\obj\Release\net6.0-windows\Conversion System.pdb
 C:\Users\hyste.STUDIELP-STEFAN\source\repos\Conversion System\Conversion System\obj\Release\net6.0-windows\Conversion System.genruntimeconfig.cache
 C:\Users\hyste.STUDIELP-STEFAN\source\repos\Conversion System\Conversion System\obj\Release\net6.0-windows\ref\Conversion System.dll
+C:\Users\hyste.STUDIELP-STEFAN\source\repos\Conversion System\Conversion System\obj\Release\net6.0-windows\Conversion_System.Properties.Resources.resources
 C:\Users\hyste.STUDIELP-STEFAN\source\repos\Conversion System\Conversion System\bin\Release\net6.0-windows\Conversion System.dll.manifest
 C:\Users\hyste.STUDIELP-STEFAN\source\repos\Conversion System\Conversion System\bin\Release\net6.0-windows\Conversion System.application
 C:\Users\hyste.STUDIELP-STEFAN\source\repos\Conversion System\Conversion System\obj\Release\net6.0-windows\Conversion System.dll.manifest
