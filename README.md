@@ -7,6 +7,10 @@ Conversion System is an easy-to-use, [open-source](https://en.wikipedia.org/wiki
 ## 🛡️Security
 I have ran both the setup.exe and the application itself through VirusTotal to ensure you that there are no viruses injected into this application, for setup.exe [click here](https://www.virustotal.com/gui/file/19b1bb4faf74082a25e98ff34d7f8cdbb64ad0716e17c62d783dbdf8d910388e/detection) for the results, and for Conversion System.application [click here](https://www.virustotal.com/gui/file/775c2b94b8bb667b862e5ae577b911a2bd674b09f6dc8542111b6bed563b8a31?nocache=1) for the results. You can always run those or other files in the project through VirusTotal again if you wish.
 
+In addition, your web browser might scan the file before downloading, and if you have an anti-virus on your computer, it will most likely also scan the files for viruses. They will 100% come out negative with a small chance of a false positive, it is recommended to use VirusTotal as your most trusted source. 
+
+These regulations only apply for MY version, any modified versions from other people might contain viruses injected deliberetly.
+
 ## ⚙️Setup
 
 ### 🖥️Windows Application
