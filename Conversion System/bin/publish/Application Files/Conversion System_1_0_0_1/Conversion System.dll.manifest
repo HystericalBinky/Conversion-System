@@ -63,13 +63,13 @@
       <dsig:DigestValue>sPws9dEPG064aBCpd5saSNtElxkqKHuyXa/DasCGx5s=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Conversion System.dll" size="232960">
+  <file name="Conversion System.dll" size="234496">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>Ib0rQhUc5I3z51V/X/TLYoroTzAemNLgPGS9Qp/vMcg=</dsig:DigestValue>
+      <dsig:DigestValue>n+V79R5Kia0Eqb0satyKZU54JDT4+nvcouqpaqAvnTw=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Conversion System.exe" size="260608">
