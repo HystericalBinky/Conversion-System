@@ -40,6 +40,7 @@ namespace Conversion_System
             lblBinary.Text = "";
             lblDecimal.Text = "";
             lblHex.Text = "";
+            lblOctal.Text = "";
             txtConverter.Text = "";
         }
 
@@ -55,10 +56,20 @@ namespace Conversion_System
 
         private void hex_btn_Click_1(object sender, EventArgs e)
         {
-            int numconverter = int.Parse(txtConverter.Text);
-            lblBinary.Text = Convert.ToString(numconverter, 2);
-            lblDecimal.Text = numconverter.ToString();
-            lblHex.Text = Convert.ToString(numconverter, 16);
+            if (txtConverter.Text == "" || txtConverter.Text.Contains("."))
+            {
+                MessageBox.Show("Invalid Data", "Conversion System");
+                button1_Click(sender, e);
+                txtConverter.Focus();
+            }
+            else
+            {
+                int numconverter = int.Parse(txtConverter.Text);
+                lblBinary.Text = Convert.ToString(numconverter, 2);
+                lblDecimal.Text = numconverter.ToString();
+                lblHex.Text = Convert.ToString(numconverter, 16);
+                lblOctal.Text = Convert.ToString(numconverter, 8);
+            }
         }
 
         private void txtConverter_TextChanged(object sender, EventArgs e)
@@ -74,6 +85,24 @@ namespace Conversion_System
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void txtConverter_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            char numsOnly = e.KeyChar;
+            if (!char.IsDigit(numsOnly) && numsOnly != 8)
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            var uri = "https://github.com/HystericalBinky/Conversion-System";
+            var psi = new System.Diagnostics.ProcessStartInfo();
+            psi.UseShellExecute = true;
+            psi.FileName = uri;
+            System.Diagnostics.Process.Start(psi);
         }
     }
 }

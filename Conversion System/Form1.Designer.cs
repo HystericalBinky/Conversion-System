@@ -43,6 +43,9 @@
             lblHex = new TextBox();
             btnClear = new Button();
             btnExit = new Button();
+            label6 = new Label();
+            lblOctal = new TextBox();
+            button1 = new Button();
             ((System.ComponentModel.ISupportInitialize)bindingSource1).BeginInit();
             SuspendLayout();
             // 
@@ -50,7 +53,7 @@
             // 
             lblBinary.Cursor = Cursors.No;
             lblBinary.HideSelection = false;
-            lblBinary.Location = new Point(147, 209);
+            lblBinary.Location = new Point(47, 208);
             lblBinary.Name = "lblBinary";
             lblBinary.ReadOnly = true;
             lblBinary.Size = new Size(127, 23);
@@ -65,11 +68,12 @@
             txtConverter.Size = new Size(255, 23);
             txtConverter.TabIndex = 2;
             txtConverter.TextChanged += txtConverter_TextChanged;
+            txtConverter.KeyPress += txtConverter_KeyPress;
             // 
             // hex_btn
             // 
             hex_btn.Cursor = Cursors.Hand;
-            hex_btn.Location = new Point(147, 281);
+            hex_btn.Location = new Point(47, 281);
             hex_btn.Name = "hex_btn";
             hex_btn.Size = new Size(127, 43);
             hex_btn.TabIndex = 3;
@@ -104,7 +108,7 @@
             label3.Anchor = AnchorStyles.None;
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(147, 176);
+            label3.Location = new Point(47, 175);
             label3.Name = "label3";
             label3.Size = new Size(70, 30);
             label3.TabIndex = 7;
@@ -115,7 +119,7 @@
             label4.Anchor = AnchorStyles.None;
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.Location = new Point(310, 176);
+            label4.Location = new Point(210, 175);
             label4.Name = "label4";
             label4.Size = new Size(88, 30);
             label4.TabIndex = 9;
@@ -126,7 +130,7 @@
             // 
             lblDecimal.Cursor = Cursors.No;
             lblDecimal.HideSelection = false;
-            lblDecimal.Location = new Point(310, 209);
+            lblDecimal.Location = new Point(210, 208);
             lblDecimal.Name = "lblDecimal";
             lblDecimal.ReadOnly = true;
             lblDecimal.Size = new Size(127, 23);
@@ -137,7 +141,7 @@
             label5.Anchor = AnchorStyles.None;
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label5.Location = new Point(475, 176);
+            label5.Location = new Point(375, 175);
             label5.Name = "label5";
             label5.Size = new Size(132, 30);
             label5.TabIndex = 11;
@@ -147,7 +151,7 @@
             // 
             lblHex.Cursor = Cursors.No;
             lblHex.HideSelection = false;
-            lblHex.Location = new Point(475, 209);
+            lblHex.Location = new Point(375, 208);
             lblHex.Name = "lblHex";
             lblHex.ReadOnly = true;
             lblHex.Size = new Size(127, 23);
@@ -156,7 +160,7 @@
             // btnClear
             // 
             btnClear.Cursor = Cursors.Hand;
-            btnClear.Location = new Point(310, 281);
+            btnClear.Location = new Point(210, 281);
             btnClear.Name = "btnClear";
             btnClear.Size = new Size(127, 43);
             btnClear.TabIndex = 12;
@@ -167,7 +171,7 @@
             // btnExit
             // 
             btnExit.Cursor = Cursors.Hand;
-            btnExit.Location = new Point(475, 281);
+            btnExit.Location = new Point(375, 281);
             btnExit.Name = "btnExit";
             btnExit.Size = new Size(127, 43);
             btnExit.TabIndex = 13;
@@ -175,11 +179,46 @@
             btnExit.UseVisualStyleBackColor = true;
             btnExit.Click += button2_Click;
             // 
+            // label6
+            // 
+            label6.Anchor = AnchorStyles.None;
+            label6.AutoSize = true;
+            label6.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label6.Location = new Point(543, 175);
+            label6.Name = "label6";
+            label6.Size = new Size(62, 30);
+            label6.TabIndex = 15;
+            label6.Text = "Octal";
+            // 
+            // lblOctal
+            // 
+            lblOctal.Cursor = Cursors.No;
+            lblOctal.HideSelection = false;
+            lblOctal.Location = new Point(543, 208);
+            lblOctal.Name = "lblOctal";
+            lblOctal.ReadOnly = true;
+            lblOctal.Size = new Size(127, 23);
+            lblOctal.TabIndex = 14;
+            // 
+            // button1
+            // 
+            button1.Cursor = Cursors.Hand;
+            button1.Location = new Point(543, 281);
+            button1.Name = "button1";
+            button1.Size = new Size(127, 43);
+            button1.TabIndex = 16;
+            button1.Text = "GitHub";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click_1;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(734, 561);
+            Controls.Add(button1);
+            Controls.Add(label6);
+            Controls.Add(lblOctal);
             Controls.Add(btnExit);
             Controls.Add(btnClear);
             Controls.Add(label5);
@@ -216,5 +255,8 @@
         private TextBox lblHex;
         private Button btnClear;
         private Button btnExit;
+        private Label label6;
+        private TextBox lblOctal;
+        private Button button1;
     }
 }
