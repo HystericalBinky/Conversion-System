@@ -31,5 +31,3 @@ OR
 1. Download the Source Code zip file from the [latest release](https://github.com/HystericalBinky/Conversion-System/releases)
 2. Unzip and open the folder with Visual Studio.
 3. Run/Edit the project.
-
-Note: This is my 1st Github Repository, please feel free to let me know if I did something wrong by creating a new [issue](https://github.com/HystericalBinky/Conversion-System/issues)
